@@ -1,0 +1,51 @@
+# Binaires compilés
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+sync-schema
+build/
+bin/
+
+# Fichiers de test
+*.test
+
+# Couverture de code
+*.out
+*.prof
+
+# Dépendances Go
+go.sum
+
+# Fichiers générés
+generated/
+*.generated.go
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Fichiers temporaires
+tmp/
+temp/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Configuration locale
+.env
+.env.local
+config/local.*
