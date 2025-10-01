@@ -1,4 +1,4 @@
-package syncmap
+package syncmaps
 
 import (
 	"sync/atomic"
